@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+       
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:gravity="center"
+        android:text="About"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="55dp" />
+        
+        <TextView
+            android:autoLink="web"
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Soil classification deals with the systematic categorization of soils based on distinguishing characteristics as well as criteria that dictate choices in use.
+\n3 types of classification systems have been used in this application, namely, AASHTO, USCS and ISSCS. You can take a look at these systems here:
+\n1. AASHTO: http://goo.gl/0fMyEk
+\n2. USCS:   http://goo.gl/3ck8MQ
+\n3. ISSCS:  http://goo.gl/mNOh31
+\nand            http://goo.gl/YN7iBn
+\n
+\nAbout the developer:
+\nThis application was developed by 
+\nMan Parvesh Singh Randhawa
+\n3rd year Civil Engineering student,
+\nIIT Guwahati.
+\n
+\nYou can contact me at:
+\nmanparveshsinghrandhawa@gmail.com
+\nm.randhawa@iitg.ernet.in
+
+            "
+            android:textColor="#FFFFFF" />
+        
+    
+    </LinearLayout>
+    
+</ScrollView>
+    

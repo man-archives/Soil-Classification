@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Soil Classification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="aashto">AASHTO</string>
+    <string name="uscs">USCS</string>
+    <string name="isscs">ISSCS</string>
+    <string name="usda">USDA</string>
+    <string name="classtitle">Choose a \nClassification System:</string>
+    <string name="title_activity_isscs__open">ISSCS_Open</string>
+    <string name="title_activity_aashto">AASHTO</string>
+    <string name="title_activity_uscs">USCS</string>
+    <string name="title_activity_isscs">ISSCS</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

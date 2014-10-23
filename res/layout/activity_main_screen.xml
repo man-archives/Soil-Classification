@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="summer14.manparvesh.soil12.MainScreen" 
+    android:background="@drawable/bg3"
+    >
+
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+	    <TextView
+        android:textColor="#8a7246"
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:fitsSystemWindows="false"
+        android:maxHeight="85sp"
+        android:paddingTop="5sp"
+        android:text="@string/classtitle"
+        android:textSize="25sp"
+        android:gravity="center" 
+        />
+
+	    
+
+    	<Button
+        android:textColor="#FFFFFF"
+        android:id="@+id/uscs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/uscs" 
+        android:background="@drawable/button_wood"
+        android:layout_marginRight="1.25sp"
+        android:layout_marginLeft="1.25sp"
+        android:layout_marginTop="2.5sp"/>
+
+    	<Button
+        android:id="@+id/isscs"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/isscs" 
+        android:background="@drawable/button_wood" 
+        android:layout_marginTop="2.5sp"
+        android:layout_marginRight="1.25sp"
+        android:layout_marginLeft="1.25sp"
+        />
+    	
+    	<Button
+	        android:id="@+id/aashto"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="1.25sp"
+	        android:layout_marginRight="1.25sp"
+	        android:layout_marginTop="2.5sp"
+	        android:background="@drawable/button_wood"
+	        android:text="@string/aashto"
+	        android:textColor="#FFFFFF" />
+    
+    	<LinearLayout    
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_vertical"
+    	android:gravity="center"
+    	android:weightSum="5">
+    	
+    		<Button
+        	android:textColor="#FFFFFF"
+        	android:id="@+id/about"
+       		android:layout_height="fill_parent"
+        	android:layout_width="165dp"
+        	android:text="About" 
+        	android:gravity="center"
+        	android:background="@drawable/button_wood"
+        	android:layout_marginRight="1.25sp"
+        	android:layout_marginLeft="1.25sp"
+        	android:layout_marginTop="2.5sp"/>
+
+    		<Button
+        	android:textColor="#FFFFFF"
+        	android:id="@+id/exit"
+        	android:layout_height="fill_parent"
+        	android:layout_width="165dp"
+        	android:text="Exit" 
+        	android:gravity="center"
+        	android:background="@drawable/button_wood"
+        	android:layout_marginRight="1.25sp"
+        	android:layout_marginLeft="1.25sp"
+        	android:layout_marginTop="2.5sp" />
+   
+		</LinearLayout>
+	    
+	</LinearLayout>
+
+</ScrollView>

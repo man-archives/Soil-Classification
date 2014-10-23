@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+	<TextView
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:text="ISSCS"
+        android:textSize="55dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView5"
+            android:textSize="14dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Sieve no.4 (4.75mm) % passing" />
+
+        <EditText
+            android:inputType="phone"
+            android:background="#99FFFFFF"
+            android:id="@+id/T41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView51"
+            android:textSize="14dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Sieve no.200 (0.075mm) % passing" />
+
+        <EditText
+            android:inputType="phone"
+            android:background="#99FFFFFF"
+            android:id="@+id/T43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+
+    </LinearLayout>
+
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Liquid Limit:" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/T44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:background="#99FFFFFF">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+	
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView22"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Plastic Limit" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/T47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:background="#99FFFFFF">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+	
+	
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView23"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="D10" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/T45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:background="#99FFFFFF">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView24"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="D30" />
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/T46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:background="#99FFFFFF">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+	
+	<LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView25"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="D60" />	
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/T48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" 
+            android:background="#99FFFFFF">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+    
+   
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Organic" 
+                android:textColor="#FFFFFF"
+                android:textSize="14dp"/>
+
+            <CheckBox
+                android:id="@+id/ho2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Highly Organic"
+                android:textColor="#FFFFFF"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+	
+	
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/clear4"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Clear" 
+            android:layout_marginRight="0.75dp"
+            android:gravity="center"
+            android:background="@drawable/button_wood"
+            />
+
+        <Button
+            android:textColor="#FFFFFF"
+            android:id="@+id/classify4"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Classify"
+            android:gravity="center"
+            android:background="@drawable/button_wood"
+             />
+
+    </LinearLayout>
+    
+		</LinearLayout>
+		
+</ScrollView>
